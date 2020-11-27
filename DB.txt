@@ -1,0 +1,10 @@
+CREATE TABLE `tb_user` (
+  `nome` varchar(100) DEFAULT NULL,
+  `email` varchar(200) NOT NULL,
+  `telefone` varchar(30) DEFAULT NULL,
+  `celular` varchar(30) DEFAULT NULL,
+  `tipo` varchar(30) DEFAULT NULL,
+  `senha` varchar(45) DEFAULT NULL,
+  `ddd` int(11) DEFAULT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1
